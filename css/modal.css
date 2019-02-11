@@ -1,0 +1,331 @@
+/* Check out Modal*/
+#chckoutHeader {
+  background: -webkit-linear-gradient(45deg, #307af5 0%, #3a3a3a 50%, #011940 50%, #011940 50%, #3a3a3a 50%, #c2c2c2 100%);
+  background: linear-gradient(45deg, #307af5 0%, #3a3a3a 50%, #011940 50%, #011940 50%, #3a3a3a 50%, #c2c2c2 100%);
+}
+
+#chckClose {
+  color: black;
+}
+
+#ChckoutFooter {
+  background: -webkit-linear-gradient(45deg, #307af5 0%, #3a3a3a 50%, #011940 50%, #011940 50%, #3a3a3a 50%, #c2c2c2 100%);
+  background: linear-gradient(45deg, #307af5 0%, #3a3a3a 68%, #011940 50%, #011940 50%, #3a3a3a 50%, #c2c2c2 100%);
+}
+
+.alert {
+  display: none;
+  text-align: center;
+  padding: 10px;
+  background: #326fd5;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#name, #email {
+  margin-left: 5px;
+}
+
+#owner, #cardNumber {
+  margin-left: 15px;
+}
+
+#cvv {
+  width: 100px;
+  margin-left: 5px;
+}
+
+.CVV {
+  display: flex;
+}
+
+#expDate {
+  margin-left: 15px;
+}
+
+/*PS Modal */
+#pscontent {
+  background-color: #002055;
+  background-image: radial-gradient(ellipse 50% 70% at 50% 0, #002c74 20%, #001536);
+}
+
+#psFooter {
+  height: 50px;
+}
+
+#ps-Modal-header, #psFooter {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+#psFooter button {
+  background-color: black;
+}
+
+#psContainer {
+  color: white;
+  flex: 1;
+  width: 95%;
+  padding-top: 25px;
+  background: rgba(0, 0, 0, .6);
+}
+
+#psModal {
+  background-color: #002055;
+  background-image: radial-gradient(ellipse 50% 70% at 50% 0, #002c74 20%, #001536);
+  padding: inherit;
+  padding-bottom: 15px;
+}
+
+#mgsthumbnail {
+  height: 160px;
+  width: 172px;
+}
+
+#psTitle {
+  padding: 0.8rem 0 1.1rem;
+  font-weight: 200;
+  letter-spacing: .4em;
+  margin: auto;
+}
+
+.psDetails {
+  padding: 15px;
+}
+
+#psmodalAdd {
+  display: block;
+  margin: auto;
+}
+
+.addMessage {
+  text-align: center;
+  display: none;
+  margin-top: 5px;
+}
+
+/* Xbox Modal */
+#close-modal-xbox {
+  color: black;
+}
+
+#xboxContent {
+  border-radius: 2px;
+  background: #fff;
+  -ms-grid-columns: auto minmax(0, 1fr);
+  -ms-grid-rows: auto auto auto auto 1fr auto;
+  grid-template-columns: min-content minmax(0, 1fr);
+  grid-template-rows: auto auto auto auto 1fr auto;
+  -webkit-box-shadow: 0 6px 23px 0 rgba(0, 0, 0, .16);
+  -moz-box-shadow: 0 6px 23px 0 rgba(0, 0, 0, .16);
+  box-shadow: 0 6px 23px 0 #212529;
+}
+
+#xboxTitle {
+  font-family: wf_heroic-condensed-pro_medium, Calibri, "Arial Narrow", "Trebuchet MS", Tahoma, Arial, sans-serif;
+  padding: 0.8rem 0 1.1rem;
+  letter-spacing: .4em;
+  text-align: center;
+}
+
+.xbox-Modal-header {
+  background: #fff;
+  color: black;
+}
+
+#haloHr {
+  content: "";
+  width: 87%;
+  margin-left: 17px;
+  margin-top: -28px;
+  display: block;
+  height: 4px;
+  background-position: -80px top;
+  background-size: 284px 40px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(135deg, transparent 0, transparent 40px, rgba(62, 62, 62, .5) 40px, rgba(62, 62, 62, .5) 200px, transparent 200px);
+}
+
+#haloHr::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background-position: -80px top;
+  background-size: 284px 40px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(135deg, transparent 0, transparent 40px, rgba(62, 62, 62, .5) 40px, rgba(62, 62, 62, .5) 200px, transparent 200px);
+}
+
+#xboxCart {
+  background-color: #fff;
+  padding: 10px 10px;
+  border: 1px solid black;
+}
+
+#Xbox-MainSite {
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+}
+
+#Xbox-MainSit {
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+}
+
+#Xbox-MainSit a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.xboxImg {
+  width: 100px;
+}
+
+.oneImg {
+  width: 110px;
+}
+
+.xboxDetails {
+  font-size: 15px;
+  font-family: "Arial Narrow", "Trebuchet MS", Tahoma, Arial, sans-serif;
+}
+
+#gearHeader {
+  font-family: Arial, sans-serif;
+  font-size: 0.85714em;
+  border-bottom: 2px solid #900909;
+}
+
+#gearTitle {
+  font-family: Arial, "Trebuchet MS", Tahoma, Arial, sans-serif;
+}
+
+#gearsLogo {
+  width: 120px;
+}
+
+#gearsSites {
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+}
+
+#risingTitle {
+  font-family: wf_heroic-condensed-pro_medium, Calibri, "Arial Narrow", "Trebuchet MS", Tahoma, Arial, sans-serif;
+  padding: 0.8rem 0 1.1rem;
+  letter-spacing: .4em;
+  text-align: center;
+}
+
+#dr3logo {
+  width: 120px;
+}
+
+/* SlideShow*/
+.carousel-indicators li {
+  border: 1px solid black;
+  height: 5px;
+}
+
+.carousel-indicators .active {
+  background-color: white;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: inherit;
+}
+
+/* Cart Price and Sites*/
+.colbtn {
+  background-color: #262b34;
+  padding: 5px 10px;
+  border: 1px solid white;
+  width: 95%;
+}
+
+#xbox-cart-btn {
+  padding: .625rem 1.25rem;
+  margin: .3125rem 0 .75rem;
+  border: none;
+  font-size: 15px;
+  margin-left: 15px;
+  border-radius: .125rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+  line-height: 1.25rem;
+  border: 2px solid transparent;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0;
+  display: block;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 transparent;
+  background: #107c10;
+}
+
+#xbox-cart-btn:hover {
+  text-decoration: underline;
+}
+
+.cartArea {
+  padding: 05px;
+  margin: 0 5px;
+}
+
+.cartArea h5 {
+  text-align: center;
+}
+
+.qty-box {
+  margin-left: 15%;
+}
+
+.qty-box-input {
+  width: 55px;
+}
+
+.cartbtn {
+  padding: .625rem 1.25rem;
+  margin: .3125rem 0 .75rem;
+  border: none;
+  border-radius: .125rem;
+  font-size: 1.125rem;
+  background-color: #d6d6d6;
+  color: #373737;
+  cursor: pointer;
+  line-height: 1.25rem;
+}
+
+.cartbtn:hover {
+  background-color: #dfdfdf;
+}
+
+#mainSite {
+  font-weight: 200;
+  letter-spacing: .1em;
+  text-decoration: none;
+  padding-top: 15px;
+}
+
+#mainSite a {
+  color: inherit;
+}
+
+#haloLogo {
+  width: 100px;
+}
+
+.steam {
+  font-family: "Motiva Sans", Sans-serif
+}
+
+.steamImg {
+  width: 125px;
+}
+
+.psStore {
+  width: 175px;
+}
+
+/*MGS Img*/
+.mgsnotonline {
+  width: 100%;
+}

@@ -1,0 +1,80 @@
+/* Main Page */
+@media screen and (min-width:500px) and (max-width:767px) {
+  .grid {
+    margin-left: 155px;
+  }
+}
+
+@media screen and (min-width:140px) and (max-width:499px) {
+  .grid {
+    margin: auto;
+    display: table;
+    width: 50%;
+  }
+
+  ..display-4 {
+    width: 15px;
+  }
+
+  .ps-banner, .xbox-banner {
+    width: 65%;
+  }
+
+  .ps-logo, .xbox-logo {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width:140px) and (max-width:418px) {
+  #cartDrop {
+    width: 100%;
+  }
+}
+
+/* Games Modals & Check Out*/
+@media screen and (min-width:210px) and (max-width:991.5px) {
+  #mediaMd-sm-img, #mediaMd-sm-chck {
+    display: contents;
+  }
+
+  #modalMediacar {
+    width: 94%;
+    margin-left: 15px;
+  }
+
+  #cart, #xboxCart {
+    width: 200px;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .links {
+    margin: 0 27px;
+  }
+
+  .carousel-control-prev {
+    margin-left: 15px;
+  }
+
+  .carousel-control-next {
+    margin-right: 15px;
+  }
+
+  /*CheckOut*/
+  .emailForm {
+    margin-top: 10px;
+  }
+
+  .emailForm label {
+    padding-right: 5px;
+  }
+
+  #confirm-purchase {
+    display: block;
+    margin: auto;
+  }
+
+  #ownerName {
+    margin-left: 25px;
+  }
+}
